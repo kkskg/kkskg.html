@@ -12,15 +12,33 @@ body{
     display: flow-root;
     background-color: black;     
 }
-header{
+h1{
     text-align: center;
     font-size: 30px;
     font-family: OpenSans, "lucida console", "courier new";
     font-weight: bold;
     display: flow-root; 
-    background-color: darkgray;
+   background-color: darkgrey;
     padding: 25px;
 }
+
+
+.fa-brands.fa-square-letterboxd.fa-3x:hover{
+    border: 2px solid black;
+}
+.fa-brands.fa-twitter.fa-3x{
+    color:  #1DA1F2;
+}
+.fa-brands.fa-twitter.fa-3x:hover{
+    border: 2px solid rgb(43, 32, 32);
+}
+.fa-brands.fa-instagram.fa-3x:hover{
+    border: 2px solid rgb(43, 32, 32);
+}
+.fa-brands.fa-instagram.fa-3x{
+    color: #cd486b;
+}
+
 h1{
     text-shadow: 3px 1px 5px rgb(204, 57, 57), -3px -1px 5px rgb(3, 7, 30), -3px -1px 5px yellow, 3px 1px 5px blue ;
 }
